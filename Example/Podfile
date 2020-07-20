@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'BinartOCZip_Example' do
+  pod 'BinartOCZip', :path => '../'
+
+  target 'BinartOCZip_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+  end
+end

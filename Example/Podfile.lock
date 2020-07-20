@@ -1,0 +1,27 @@
+PODS:
+  - BinartOCZip (0.1.0)
+  - Expecta (1.0.6)
+  - Specta (1.0.7)
+
+DEPENDENCIES:
+  - BinartOCZip (from `../`)
+  - Expecta
+  - Specta
+
+SPEC REPOS:
+  trunk:
+    - Expecta
+    - Specta
+
+EXTERNAL SOURCES:
+  BinartOCZip:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BinartOCZip: ff6f2c48c1733f0ad66db5a83efe41abeb685e94
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+
+PODFILE CHECKSUM: 588d3b5d108ac32dad41d7b5662538dafa99b328
+
+COCOAPODS: 1.8.4
